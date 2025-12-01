@@ -3,7 +3,9 @@
 // import Navbar from "./Navbar.jsx";
 // import Form from "./Form.jsx";
 
-import Student from "./Student";
+// import UserGreeting from "./UserGreeting";
+
+// import Student from "./Student";
 
 // import Button from "./Button";
 
@@ -51,6 +53,18 @@ function App() {
         <Student  name = 'Patrick' age = {23} isStudentn = {false} />
         <Student  name = 'Sandy' age = {43} isStudentn = {true} />
         <Student  name = 'Thankan' age = {21} isStudentn = {false} /> */}
+    
+
+    {/* --------------------------------------------------------------- */}
+
+
+          {/* Conditional Rendering--------------------------- */}
+
+          {/* <UserGreeting isLoggedIn={true} username = "Saran" /> */}
+
+
+          {/* -----------------useReducer--------------------- */}
+          
     </>
 
   );
