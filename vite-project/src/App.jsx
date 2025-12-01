@@ -3,12 +3,15 @@
 // import Navbar from "./Navbar.jsx";
 // import Form from "./Form.jsx";
 
+import Counter from "./Hooks/useReducer/UseReducer";
+
+// import UseStateHook from "./Hooks/useState/UseState-Hook";
+
 // import UserGreeting from "./UserGreeting";
 
 // import Student from "./Student";
 
 // import Button from "./Button";
-
 // import Card from "./Card";
 
 // import Food from "./Food";
@@ -63,8 +66,10 @@ function App() {
           {/* <UserGreeting isLoggedIn={true} username = "Saran" /> */}
 
 
-          {/* -----------------useReducer--------------------- */}
+          {/* -----------------Hooks------------------- */}
           
+          {/* <UseStateHook/> */}
+          <Counter/>
     </>
 
   );
